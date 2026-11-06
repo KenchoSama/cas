@@ -8,7 +8,7 @@
         <flux:sidebar.toggle class="lg:hidden" icon="x-mark" />
 
         <a href="{{ route('dashboard') }}" class="me-5 flex items-center space-x-2 rtl:space-x-reverse" wire:navigate>
-            <img src="https://collection-suites.com/wp-content/uploads/2022/07/cropped-cropped-collection-suites-icon-192x192.png" style="padding-left:20px;">
+		<img src="{{ asset('images/cs-icon-192.png') }}" style="padding-left:20px;">
         </a>
 
         <flux:navlist variant="outline">
